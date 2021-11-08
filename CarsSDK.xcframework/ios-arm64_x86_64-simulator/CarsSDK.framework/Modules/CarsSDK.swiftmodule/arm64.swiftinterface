@@ -1,0 +1,379 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CarsSDK
+import Foundation
+import SafariServices
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+public struct Airport : Swift.Codable {
+  public let iataCode: Swift.String
+  public init(iataCode: Swift.String)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension CarsSDK.Airport : Swift.Equatable {
+  public static func == (lhs: CarsSDK.Airport, rhs: CarsSDK.Airport) -> Swift.Bool
+}
+extension CarsSDK.Environment {
+  public var apiUrl: Foundation.URL {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class SearchContextBuilder {
+  public var pickUp: CarsSDK.SearchPickUp?
+  public var dropOff: CarsSDK.SearchDropOff?
+  public var flightDesignator: CarsSDK.FlightDesignator?
+  public var driverAge: Swift.Int
+  public var passengerCounts: CarsSDK.PassengerCounts?
+  public var localePreferences: CarsSDK.LocalePreferences?
+  @objc deinit
+}
+public struct SearchContext : Swift.Encodable {
+  public var pickUp: CarsSDK.SearchPickUp
+  public var dropOff: CarsSDK.SearchDropOff?
+  public var flightDesignator: CarsSDK.FlightDesignator?
+  public var driverAge: Swift.Int
+  public var passengerCounts: CarsSDK.PassengerCounts?
+  public var localePreferences: CarsSDK.LocalePreferences
+  public init?(block: ((CarsSDK.SearchContextBuilder) -> Swift.Void))
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension CarsSDK.SearchContext : Swift.Equatable {
+  public static func == (lhs: CarsSDK.SearchContext, rhs: CarsSDK.SearchContext) -> Swift.Bool
+}
+public struct Vehicle : Swift.Equatable, Swift.Codable {
+  public let name: Swift.String
+  public let nameAppendix: Swift.String
+  public static func == (a: CarsSDK.Vehicle, b: CarsSDK.Vehicle) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum SearchLocation {
+  case airport(airport: CarsSDK.Airport)
+}
+extension CarsSDK.SearchLocation : Swift.Equatable {
+  public static func == (lhs: CarsSDK.SearchLocation, rhs: CarsSDK.SearchLocation) -> Swift.Bool
+}
+extension CarsSDK.SearchLocation : Swift.Encodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct Name : Swift.Equatable, Swift.Codable {
+  public let givenName: Swift.String
+  public let surname: Swift.String
+  public init(givenName: Swift.String, surname: Swift.String)
+  public static func == (a: CarsSDK.Name, b: CarsSDK.Name) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class BookingGoCars {
+  public typealias PriceRequestCompletionHandler = (Swift.Result<CarsSDK.IndicativePrice, CarsSDK.APIError>) -> Swift.Void
+  public static func initialize(withEnvironment environment: CarsSDK.Environment)
+  public static func applyStyle(_ style: CarsSDK.Style)
+  public static func addEventListener(_ eventListener: CarsSDK.EventListener)
+  public static func present(_ flow: CarsSDK.Flow, from presentingViewController: UIKit.UIViewController, completion: CarsSDK.Flow.CompletionHandler?)
+  public static func requestPrice(searchContext: CarsSDK.SearchContext, completion: @escaping CarsSDK.BookingGoCars.PriceRequestCompletionHandler)
+  public static func getInPathUpsellWidgetModel() -> CarsSDK.InPathWidgetModel
+  @objc deinit
+}
+public protocol EventListener {
+  func eventFired(_ event: CarsSDK.Event)
+}
+public struct PriceDetails : Swift.Codable, Swift.Equatable {
+  public let displayPrice: CarsSDK.Price
+  public let conversionDetails: CarsSDK.ConversionDetails?
+  public static func == (a: CarsSDK.PriceDetails, b: CarsSDK.PriceDetails) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Insurance : Swift.Equatable, Swift.Codable {
+  public let quoteReference: Swift.String?
+  public let rateReference: Swift.String?
+  public static func == (a: CarsSDK.Insurance, b: CarsSDK.Insurance) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public typealias SearchPickUp = CarsSDK.SearchNode
+public typealias SearchDropOff = CarsSDK.SearchNode
+public struct SearchNode {
+  public let date: Foundation.Date
+  public let location: CarsSDK.SearchLocation
+  public init(date: Foundation.Date, location: CarsSDK.SearchLocation)
+}
+extension CarsSDK.SearchNode : Swift.Encodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension CarsSDK.SearchNode : Swift.Equatable {
+  public static func == (lhs: CarsSDK.SearchNode, rhs: CarsSDK.SearchNode) -> Swift.Bool
+}
+public struct IndicativePrice : Swift.Codable {
+  public let prefix: Swift.String
+  public let price: CarsSDK.Price
+  public let suffix: Swift.String
+  public let straplineText: Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum APIError : Swift.Error {
+  case invalidEndpoint
+  case network(error: Swift.Error)
+  case badResponse(httpStatusCode: Swift.Int)
+  case noContent
+  case invalidContentType
+  case decodingError
+}
+public struct UIMetrics {
+  public init()
+  public init(preferredStatusBarStyle: UIKit.UIStatusBarStyle)
+}
+public struct Booking : Swift.Equatable {
+  public let display: CarsSDK.Display
+  public let book: CarsSDK.Book
+  public init(display: CarsSDK.Display, book: CarsSDK.Book)
+  public static func == (a: CarsSDK.Booking, b: CarsSDK.Booking) -> Swift.Bool
+}
+extension CarsSDK.Booking : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct ConversionDetails : Swift.Equatable, Swift.Codable {
+  public let originalPrice: CarsSDK.Price
+  public let explanation: Swift.String
+  public static func == (a: CarsSDK.ConversionDetails, b: CarsSDK.ConversionDetails) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum Environment {
+  case dev(apiKey: CarsSDK.APIKey)
+  case test(apiKey: CarsSDK.APIKey)
+  case integrate(apiKey: CarsSDK.APIKey)
+  case production(apiKey: CarsSDK.APIKey)
+  case custom(apiBaseUrl: Foundation.URL, apiKey: CarsSDK.APIKey)
+}
+public struct AcceptedPrice : Swift.Equatable, Swift.Codable {
+  public let payableNow: CarsSDK.ProductPrice?
+  public let payableAtDesk: CarsSDK.ProductPrice?
+  public static func == (a: CarsSDK.AcceptedPrice, b: CarsSDK.AcceptedPrice) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct FlightDesignator : Swift.CustomStringConvertible, Swift.Codable {
+  public let code: Swift.String
+  public init(code: Swift.String)
+  public var description: Swift.String {
+    get
+  }
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct BookProduct : Swift.Equatable, Swift.Codable {
+  public let vehicleId: Swift.String
+  public let pickUpDateTime: Swift.String
+  public let pickUpDepotId: Swift.String
+  public let dropOffDateTime: Swift.String
+  public let dropOffDepotId: Swift.String
+  public let extras: [CarsSDK.Extra]
+  public let insurance: [CarsSDK.Insurance]
+  public let acceptedPrice: CarsSDK.AcceptedPrice
+  public let signature: Swift.String
+  public static func == (a: CarsSDK.BookProduct, b: CarsSDK.BookProduct) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Visitor : Swift.Equatable, Swift.Codable {
+  public let countryOfResidence: Swift.String
+  public let preferredCurrency: Swift.String
+  public let preferredLanguage: Swift.String
+  public let seed: Swift.String?
+  public let affiliateCode: Swift.String?
+  public let session: Swift.String?
+  public static func == (a: CarsSDK.Visitor, b: CarsSDK.Visitor) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class PartnerInformationBuilder {
+  public var correlationId: Swift.String?
+  public var partnerBookingReference: Swift.String?
+  public var advertisingPlatform: Swift.String?
+  public var advertisingCampaign: Swift.String?
+  public var cookieConsent: [CarsSDK.CookieType]?
+  @objc deinit
+}
+public struct PartnerInformation : Swift.Codable, Swift.Equatable {
+  public var correlationId: Swift.String?
+  public var partnerBookingReference: Swift.String?
+  public var advertisingPlatform: Swift.String?
+  public var advertisingCampaign: Swift.String?
+  public var cookieConsent: [CarsSDK.CookieType]?
+  public init?(block: ((CarsSDK.PartnerInformationBuilder) -> Swift.Void))
+  public static func == (a: CarsSDK.PartnerInformation, b: CarsSDK.PartnerInformation) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct InPathWidgetModel {
+  public let bannerImageUrl: Swift.String
+  public let headline: Swift.String
+  public let tagline: Swift.String
+}
+public struct Supplier : Swift.CustomStringConvertible, Swift.Equatable {
+  public struct Rating : Swift.Equatable {
+    public let average: Foundation.Decimal
+    public let outOf: Foundation.Decimal
+    public init(_ average: Foundation.Decimal, outOf: Foundation.Decimal)
+    public init(_ average: Foundation.Decimal)
+    public static func == (a: CarsSDK.Supplier.Rating, b: CarsSDK.Supplier.Rating) -> Swift.Bool
+  }
+  public let name: Swift.String
+  public let supplierImage: Foundation.URL
+  public let rating: CarsSDK.Supplier.Rating
+  public var description: Swift.String {
+    get
+  }
+  public init(name: Swift.String, supplierImage: Foundation.URL, rating: CarsSDK.Supplier.Rating)
+  public static func == (a: CarsSDK.Supplier, b: CarsSDK.Supplier) -> Swift.Bool
+}
+public struct ApiPrice : Swift.Equatable, Swift.Codable {
+  public let displayPrice: Swift.Double
+  public let displayCurrency: Swift.String
+  public let basePrice: Swift.Double?
+  public let baseCurrency: Swift.String?
+  public static func == (a: CarsSDK.ApiPrice, b: CarsSDK.ApiPrice) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Display : Swift.Equatable, Swift.Codable {
+  public let carImage: Swift.String
+  public let driverAge: Swift.Int
+  public let vehicle: CarsSDK.Vehicle
+  public let pickup: CarsSDK.Pickup
+  public let dropOff: CarsSDK.DropOff
+  public let tripDescription: Swift.String
+  public let totalPrice: CarsSDK.Price
+  public let costDescription: Swift.String
+  public let payNow: CarsSDK.PriceDetails?
+  public let payLocal: CarsSDK.PriceDetails?
+  public static func == (a: CarsSDK.Display, b: CarsSDK.Display) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum Event : Swift.Equatable {
+  case screenView(name: Swift.String, timestamp: Foundation.TimeInterval = Date().timeIntervalSince1970 * 1000)
+  case error(name: Swift.String, timestamp: Foundation.TimeInterval = Date().timeIntervalSince1970 * 1000)
+  case userAction(name: Swift.String, timestamp: Foundation.TimeInterval = Date().timeIntervalSince1970 * 1000)
+  public var stringRepresentation: Swift.String {
+    get
+  }
+  public static func == (lhs: CarsSDK.Event, rhs: CarsSDK.Event) -> Swift.Bool
+}
+public struct Price : Swift.CustomStringConvertible, Swift.Codable {
+  public let amount: Foundation.Decimal
+  public let currency: Swift.String
+  public init(_ amount: Swift.Double, _ currency: Swift.String)
+  public var description: Swift.String {
+    get
+  }
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension CarsSDK.Price : Swift.Equatable {
+  public static func == (lhs: CarsSDK.Price, rhs: CarsSDK.Price) -> Swift.Bool
+}
+public struct Book : Swift.Codable {
+  public let product: CarsSDK.BookProduct
+  public let visitor: CarsSDK.Visitor
+  public let partnerBookingInfo: CarsSDK.PartnerInformation?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension CarsSDK.Book : Swift.Equatable {
+  public static func == (lhs: CarsSDK.Book, rhs: CarsSDK.Book) -> Swift.Bool
+}
+public struct Palette {
+  public init()
+  public init(primaryBackgroundColor: UIKit.UIColor, primaryForegroundColor: UIKit.UIColor)
+}
+public struct ProductPrice : Swift.Equatable, Swift.Codable {
+  public let value: Swift.Double
+  public let currency: Swift.String
+  public static func == (a: CarsSDK.ProductPrice, b: CarsSDK.ProductPrice) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Theme {
+  public init(palette: CarsSDK.Palette, typography: CarsSDK.Typography, metrics: CarsSDK.UIMetrics)
+}
+public enum CookieType : Swift.String, Swift.Codable {
+  case essential
+  case analytics
+  case marketing
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class PassengerCountsBuilder {
+  public var adults: Swift.Int?
+  public var teenagers: Swift.Int?
+  public var children: Swift.Int?
+  public var infants: Swift.Int?
+  @objc deinit
+}
+public struct PassengerCounts : Swift.Codable {
+  public var adults: Swift.Int?
+  public var teenagers: Swift.Int?
+  public var children: Swift.Int?
+  public var infants: Swift.Int?
+  public init?(block: ((CarsSDK.PassengerCountsBuilder) -> Swift.Void))
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct TripNode : Swift.Equatable, Swift.Codable {
+  public let location: Swift.String
+  public let date: Swift.String
+  public static func == (a: CarsSDK.TripNode, b: CarsSDK.TripNode) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public typealias Pickup = CarsSDK.TripNode
+public typealias DropOff = CarsSDK.TripNode
+public struct LocalePreferences : Swift.Codable {
+  public let countryOfResidence: Swift.String
+  public let displayCurrency: Swift.String
+  public let preferredLanguage: Swift.String
+  public init(countryOfResidence: Swift.String, displayCurrency: Swift.String, preferredLanguage: Swift.String)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension CarsSDK.LocalePreferences : Swift.Equatable {
+  public static func == (lhs: CarsSDK.LocalePreferences, rhs: CarsSDK.LocalePreferences) -> Swift.Bool
+}
+public struct Extra : Swift.Equatable, Swift.Codable {
+  public let id: Swift.String
+  public let amount: Swift.Int
+  public static func == (a: CarsSDK.Extra, b: CarsSDK.Extra) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Typography {
+  public let heading: UIKit.UIFont
+  public let cta: UIKit.UIFont
+  public init(heading: UIKit.UIFont, cta: UIKit.UIFont)
+}
+public struct Style {
+  public init(defaultTheme: CarsSDK.Theme)
+}
+public struct APIKey {
+  public init(partner: Swift.String, secret: Swift.String)
+}
+public enum Flow {
+  public typealias CompletionHandler = (Swift.Result<CarsSDK.Booking, CarsSDK.APIError>) -> Swift.Void
+  case standalone(preferredLanguage: Swift.String? = nil, partnerInformation: CarsSDK.PartnerInformation?)
+  case inPath(searchContext: CarsSDK.SearchContext, partnerInformation: CarsSDK.PartnerInformation?)
+}
+extension CarsSDK.Flow : Swift.Equatable {
+  public static func == (lhs: CarsSDK.Flow, rhs: CarsSDK.Flow) -> Swift.Bool
+}
+extension CarsSDK.CookieType : Swift.Equatable {}
+extension CarsSDK.CookieType : Swift.Hashable {}
+extension CarsSDK.CookieType : Swift.RawRepresentable {}

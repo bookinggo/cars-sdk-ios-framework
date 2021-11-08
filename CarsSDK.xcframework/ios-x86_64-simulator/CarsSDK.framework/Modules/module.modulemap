@@ -1,4 +1,0 @@
-framework module CarsSDK {
-  header "CarsSDK-Swift.h"
-  requires objc
-}
