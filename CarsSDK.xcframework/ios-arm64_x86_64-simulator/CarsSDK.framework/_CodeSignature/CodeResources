@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Q8Rn2Tn1SWmxZMKeUAzUrXIPL9I=
+		qMXlOSTn/cMM8rqOSu3Bltxr3PI=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dSI97weLKt99hpECWPC20WK98S4=
+		8HrsOoKINn5Ws1eb4j+tYicqdD4=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p/sat7cGgO4U8T+fQ1pGHZSEVDw=
+		9yX3QU3otX3hNnMEyaNUczS0pZk=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dSI97weLKt99hpECWPC20WK98S4=
+		8HrsOoKINn5Ws1eb4j+tYicqdD4=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bfAi8zYknM42WSdyrHZiORVjsmE=
+		OPqVLppyHlfJxk1hA9UvIqbHVTQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -173,7 +173,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fj/5S0L9hT7rQr4X8wmsAqtcO2h1mlRzcrHn+enWTXM=
+			x1o9S8j4J2qqWkewGnwBYQYJeKDmFh09aAiCN70McbA=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -201,14 +201,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oslp2CGPugPP9Zv3lDXhslFpttU32v7Xef7wbOhtwGw=
+			tfiEb8LfMtM6yz/PsBpIsTRTBbTucNz9lJT4fXBs5gc=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fj/5S0L9hT7rQr4X8wmsAqtcO2h1mlRzcrHn+enWTXM=
+			x1o9S8j4J2qqWkewGnwBYQYJeKDmFh09aAiCN70McbA=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -236,7 +236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IRiI0ey7mkJpLdJLdncmGlBd/1BBXOM0NnDJe8J/vn4=
+			n+6zsBKEmykUgV+aKSI+G7+QCCJBxjyhKyRS046dbTM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
