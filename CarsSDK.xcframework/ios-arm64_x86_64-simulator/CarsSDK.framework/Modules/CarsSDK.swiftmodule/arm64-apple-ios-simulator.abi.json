@@ -11241,39 +11241,6 @@
             ]
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CarsSDK.CookieType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CookieType",
-                    "printedName": "CarsSDK.CookieType",
-                    "usr": "s:7CarsSDK10CookieTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:7CarsSDK10CookieTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s7CarsSDK10CookieTypeO8rawValueACSgSS_tcfc",
-            "moduleName": "CarsSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Var",
             "name": "rawValue",
             "printedName": "rawValue",
@@ -11311,6 +11278,39 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CarsSDK.CookieType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CookieType",
+                    "printedName": "CarsSDK.CookieType",
+                    "usr": "s:7CarsSDK10CookieTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7CarsSDK10CookieTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7CarsSDK10CookieTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "CarsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Enum",
@@ -13730,409 +13730,2313 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CarsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CarsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CarsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "CarsSDK"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorViewModel.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorViewModel.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 15,
       "value": "\"error_network\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorViewModel.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorViewModel.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 14,
       "value": "\"error_server\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorViewModel.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorViewModel.swift",
       "kind": "StringLiteral",
       "offset": 175,
       "length": 15,
       "value": "\"error_network\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorViewModel.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorViewModel.swift",
       "kind": "StringLiteral",
       "offset": 213,
       "length": 14,
       "value": "\"error_server\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/SDK\/BookingGoCars+Internal.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/SDK\/BookingGoCars+Internal.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/SDK\/BookingGoCars+Internal.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 60,
+      "value": "\"You must initialize the CarsSDK with an API key before use\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/Environment+URLComponents.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 57,
+      "value": "\"https:\/\/cars-sdk-bff-mobile.service.dev.bookinggo.cloud\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/Environment+URLComponents.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 58,
+      "value": "\"https:\/\/cars-sdk-bff-mobile.service.test.bookinggo.cloud\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/Environment+URLComponents.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 40,
+      "value": "\"https:\/\/sdk-integration.rentalcars.com\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/Environment+URLComponents.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 28,
+      "value": "\"https:\/\/sdk.rentalcars.com\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/TimerAnalyticsEventTimer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 820,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
+      "kind": "StringLiteral",
+      "offset": 773,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
       "kind": "StringLiteral",
       "offset": 938,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
       "kind": "StringLiteral",
       "offset": 1055,
       "length": 27,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
       "kind": "StringLiteral",
       "offset": 1184,
       "length": 20,
       "value": "\"yyyy-MM-dd'T'HH:mm\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
       "kind": "StringLiteral",
       "offset": 1317,
       "length": 23,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
       "kind": "StringLiteral",
       "offset": 1452,
       "length": 11,
       "value": "\"EEE d MMM\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Utilities\/Bundle+CarsSDK.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
+      "kind": "StringLiteral",
+      "offset": 1652,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/ISO8601Formatter.swift",
+      "kind": "StringLiteral",
+      "offset": 1829,
+      "length": 5,
+      "value": "\"UTC\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/String+CarsSDKLocalized.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 5,
+      "value": "\"SDK\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/String+CarsSDKLocalized.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/String+CarsSDKLocalized.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 849,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1156,
+      "length": 21,
+      "value": "\"error_network_title\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1238,
+      "length": 27,
+      "value": "\"error_network_description\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1325,
+      "length": 28,
+      "value": "\"error_network_retry_button\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 20,
+      "value": "\"error_server_title\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1698,
+      "length": 26,
+      "value": "\"error_server_description\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1784,
+      "length": 27,
+      "value": "\"error_server_retry_button\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2714,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathWebViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2756,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/StandaloneURLBuilder.swift",
+      "kind": "Array",
+      "offset": 981,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/Bundle+CarsSDK.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 23,
       "value": "\"com.bookinggo.CarsSDK\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/BookingGoCars.swift",
+      "kind": "StringLiteral",
+      "offset": 3280,
+      "length": 128,
+      "value": "\"https:\/\/cdn2.rcstatic.com\/com.rentalcars.185492029745.eu-west-1.web.prod.static-live\/images\/landing-pages\/sdk\/widget_entry.jpg\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/BookingGoCars.swift",
+      "kind": "StringLiteral",
+      "offset": 3477,
+      "length": 17,
+      "value": "\"upsell_headline\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/BookingGoCars.swift",
+      "kind": "StringLiteral",
+      "offset": 3563,
+      "length": 16,
+      "value": "\"upsell_tagline\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 886,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1056,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1187,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1455,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1548,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2715,
+      "length": 57,
+      "value": "\"document.documentElement.style.webkitUserSelect='none';\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3031,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3088,
+      "length": 59,
+      "value": "\"document.documentElement.style.webkitTouchCallout='none';\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3404,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3745,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4243,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4325,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4405,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4489,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4573,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4794,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4802,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4887,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4895,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4957,
+      "length": 18,
+      "value": "\"progress_loading\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5596,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6070,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6131,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6553,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6615,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6692,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6961,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7089,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7177,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7259,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7343,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7423,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7509,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7543,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8125,
+      "length": 11,
+      "value": "\"btn_close\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8421,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8548,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8646,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
       "kind": "StringLiteral",
       "offset": 136,
       "length": 20,
       "value": "\"CarsSDK.InPathViewController\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9723,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11716,
+      "length": 873,
+      "value": "\"const metaTags = () => Array.from(document.getElementsByTagName('meta'));\nconst findExistingViewport = (metaTags) => metaTags.find(element => element.getAttribute('name') === 'viewport')\nconst createViewport = () => document.createElement('meta');\nconst addViewportToHtml = (viewport) => document.getElementsByTagName('head')[0].appendChild(viewport);\n\nconst getViewport = () => {\n  var viewport = findExistingViewport(metaTags());\n  if (viewport !== undefined) {\n    return viewport;\n  }\n\n  viewport = createViewport();\n  addViewportToHtml(viewport);\n  return viewport;\n}\n\nconst viewport = getViewport();\nviewport.content = 'user-scalable=0, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0';\n\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12875,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12941,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 406,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/ErrorView\/ErrorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 905,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 20,
       "value": "\"error_server_title\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 509,
       "length": 26,
       "value": "\"error_server_description\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 587,
       "length": 27,
       "value": "\"error_server_retry_button\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 930,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1598,
+      "length": 11,
+      "value": "\"btn_close\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1698,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1872,
+      "length": 18,
+      "value": "\"activity_loading\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2018,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2276,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2371,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2561,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3089,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3217,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3305,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3387,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3471,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3551,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3637,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3671,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3761,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Standalone\/InitStandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 28,
       "value": "\"CarsSDK.InitStandaloneViewController\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Styling\/UIViewController+Styling.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "Array",
+      "offset": 257,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 3,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1195,
+      "length": 16,
+      "value": "\"pickupDateTime\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1390,
+      "length": 15,
+      "value": "\"departureDate\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 17,
+      "value": "\"dropoffDateTime\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1748,
+      "length": 12,
+      "value": "\"returnDate\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1892,
+      "length": 16,
+      "value": "\"pickupLocation\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
+      "length": 13,
+      "value": "\"destination\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2140,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2227,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 10,
+      "value": "\"currency\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2398,
+      "length": 12,
+      "value": "\"passengers\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2482,
+      "length": 12,
+      "value": "\"passengers\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "Array",
+      "offset": 2607,
+      "length": 252,
+      "value": "[\"pickupLocation\", \"dropoffLocation\", \"pickupDateTime\", \"dropoffDateTime\", \"currency\", \"residence\", \"passengers\", \"refID\", \"searchID\"]"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2934,
+      "length": 13,
+      "value": "\"stateParams\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/CarDetailsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3174,
+      "length": 15,
+      "value": "\"cookieConsent\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Styling\/UIViewController+Styling.swift",
       "kind": "IntegerLiteral",
       "offset": 167,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Analytics\/UserDefaultsEventStore.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/UserDefaultsEventStore.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 30,
       "value": "\"com.bookinggo.CarsSDK.Events\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Analytics\/EventBus.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/UserDefaultsEventStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1413,
+      "length": 12,
+      "value": "\"screenView\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/UserDefaultsEventStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1542,
+      "length": 12,
+      "value": "\"userAction\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/UserDefaultsEventStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1671,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/UserDefaultsEventStore.swift",
+      "kind": "Array",
+      "offset": 1848,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/EventAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 8,
+      "value": "\"\/event\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/EventAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 1118,
+      "length": 13,
+      "value": "\"SCREEN_VIEW\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/EventAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 1243,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/EventAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 13,
+      "value": "\"USER_ACTION\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "Dictionary",
+      "offset": 231,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 22,
+      "value": "\"BG-SDK-Authorization\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1088,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1279,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 22,
+      "value": "\"CarsSDKBuildRevision\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 95,
+      "value": "\"CarsSDK\/\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1643,
+      "length": 1,
+      "value": "\" (Build \""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1667,
+      "length": 1,
+      "value": "\") \""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1682,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1699,
+      "length": 1,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 1737,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "StringLiteral",
+      "offset": 2013,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/Environment+Headers.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2105,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/EventBus.swift",
       "kind": "Array",
       "offset": 290,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/EventBus.swift",
+      "kind": "Array",
+      "offset": 466,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 1543,
+      "length": 50,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 1566,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 1592,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 2065,
+      "length": 25,
+      "value": "\"approx_description_text\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 2163,
+      "length": 24,
+      "value": "\"exact_description_text\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "FloatLiteral",
+      "offset": 2233,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 2265,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 3003,
+      "length": 33,
+      "value": "\"paylocal_conversion_description\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 4166,
+      "length": 31,
+      "value": "\"paynow_conversion_description\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "StringLiteral",
+      "offset": 4883,
+      "length": 127,
+      "value": "\"https:\/\/cdn2.rcstatic.com\/com.rentalcars.185492029745.eu-west-1.web.prod.static-live\/images\/landing-pages\/sdk\/widget_exit.jpg\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5976,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6089,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Booking.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6120,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/ConfigRepository\/DefaultConfigRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 9,
+      "value": "\"\/config\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/ConfigRepository\/DefaultConfigRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 14,
+      "value": "\"x-bg-country\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 611,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 709,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 803,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 870,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1385,
+      "length": 57,
+      "value": "\"document.documentElement.style.webkitUserSelect='none';\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1701,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 1749,
+      "length": 59,
+      "value": "\"document.documentElement.style.webkitTouchCallout='none';\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2405,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/WebViewUtility.swift",
+      "kind": "StringLiteral",
+      "offset": 2560,
+      "length": 857,
+      "value": "\"const metaTags = () => Array.from(document.getElementsByTagName('meta'));\nconst findExistingViewport = (metaTags) => metaTags.find(element => element.getAttribute('name') === 'viewport')\nconst createViewport = () => document.createElement('meta');\nconst addViewportToHtml = (viewport) => document.getElementsByTagName('head')[0].appendChild(viewport);\n\nconst getViewport = () => {\n  var viewport = findExistingViewport(metaTags());\n  if (viewport !== undefined) {\n    return viewport;\n  }\n\n  viewport = createViewport();\n  addViewportToHtml(viewport);\n  return viewport;\n}\n\nconst viewport = getViewport();\nviewport.content = 'user-scalable=0, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0';\n\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
       "kind": "Dictionary",
       "offset": 342,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 777,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1360,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
       "kind": "Dictionary",
       "offset": 1703,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
+      "kind": "StringLiteral",
+      "offset": 1815,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Network\/URLSessionNetworkService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2476,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2266,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2698,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 531,
       "length": 21,
       "value": "\"error_network_title\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 605,
       "length": 27,
       "value": "\"error_network_description\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 684,
       "length": 28,
       "value": "\"error_network_retry_button\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 945,
       "length": 20,
       "value": "\"error_server_title\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 1018,
       "length": 26,
       "value": "\"error_server_description\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 1096,
       "length": 27,
       "value": "\"error_server_retry_button\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1849,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2101,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2299,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2708,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2790,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2874,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2954,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3038,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3215,
+      "length": 18,
+      "value": "\"activity_loading\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3361,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3562,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3657,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3922,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4050,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4138,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4220,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4304,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4384,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4470,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4504,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4798,
+      "length": 6,
+      "value": "\"back\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5188,
+      "length": 10,
+      "value": "\"btn_back\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5448,
+      "length": 11,
+      "value": "\"btn_close\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5831,
+      "length": 11,
+      "value": "\"btn_close\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 24,
       "value": "\"CarsSDK.StandaloneViewController\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6373,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/Standalone\/StandaloneViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6676,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 203,
       "length": 24,
       "value": "\"search-results-webview\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 263,
       "length": 16,
       "value": "\"extras-webview\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 312,
       "length": 12,
       "value": "\"standalone\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 400,
       "length": 13,
       "value": "\"add-to-trip\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 447,
       "length": 15,
       "value": "\"start-in-path\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 500,
       "length": 18,
       "value": "\"start-standalone\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 591,
       "length": 15,
       "value": "\"in-path-error\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 33,
       "value": "\"add-on-message-contents-invalid\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 728,
       "length": 24,
       "value": "\"in-path-bad-js-message\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 790,
       "length": 18,
       "value": "\"standalone-error\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/EventNames.swift",
       "kind": "StringLiteral",
       "offset": 855,
       "length": 28,
       "value": "\"invalid-display-currencies\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/SDK\/ServiceLocator.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1821,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1835,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2555,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2613,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2725,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2758,
+      "length": 47,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2768,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2781,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2804,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/SearchResultsURLBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3615,
+      "length": 15,
+      "value": "\"cookieConsent\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/IndicativePrice\/DefaultIndicativePriceRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 18,
+      "value": "\"indicative-price\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/PartnerInformation.swift",
+      "kind": "StringLiteral",
+      "offset": 2685,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreenFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1019,
+      "length": 11,
+      "value": "\"GET_ADDON\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreenFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1199,
+      "length": 13,
+      "value": "\"stateParams\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreenFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1939,
+      "length": 11,
+      "value": "\"ADD_ADDON\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreenFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 4326,
+      "length": 16,
+      "value": "\"search_results\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreenFactory.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4446,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreenFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 5264,
+      "length": 8,
+      "value": "\"extras\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/AppScreenFactory.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5376,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Booking\/Supplier.swift",
+      "kind": "FloatLiteral",
+      "offset": 992,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/SDK\/ServiceLocator.swift",
+      "kind": "StringLiteral",
+      "offset": 955,
+      "length": 57,
+      "value": "\"You must initialize Service Locator with an environment\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/SDK\/ServiceLocator.swift",
       "kind": "IntegerLiteral",
       "offset": 1453,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewModel.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 219,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/InPath\/InPathViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 521,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
       "kind": "IntegerLiteral",
       "offset": 363,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
       "kind": "IntegerLiteral",
       "offset": 478,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
       "kind": "IntegerLiteral",
       "offset": 597,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Modules\/MessageHandler.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 829,
+      "length": 12,
+      "value": "\"ScreenView\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 882,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 12,
+      "value": "\"UserAction\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 11,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 6,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 1519,
+      "length": 11,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "kind": "StringLiteral",
+      "offset": 1529,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Events\/Event.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1567,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/Price.swift",
+      "kind": "StringLiteral",
+      "offset": 1091,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Modules\/MessageHandler.swift",
       "kind": "StringLiteral",
       "offset": 101,
       "length": 14,
       "value": "\"CarsSDK.MessageHandler\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/WKNavigationResponse+ResponseInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/WKNavigationResponse+ResponseInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 3,
+      "value": "405"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Utilities\/UIView+Nib.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
       "kind": "StringLiteral",
       "offset": 488,
       "length": 20,
       "value": "\"error_server_title\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 26,
       "value": "\"error_server_description\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
       "kind": "StringLiteral",
       "offset": 639,
       "length": 27,
       "value": "\"error_server_retry_button\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1066,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1393,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3031,
+      "length": 16,
+      "value": "\"search_results\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3418,
+      "length": 11,
+      "value": "\"btn_close\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3602,
+      "length": 18,
+      "value": "\"activity_loading\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3748,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3864,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4101,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4333,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4461,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4549,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4631,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4715,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4795,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4881,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4915,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5005,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/InPath\/InitSearchViewController.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 24,
       "value": "\"CarsSDK.InitSearchViewController\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Analytics\/DefaultAnalyticsRepository.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/DefaultAnalyticsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 12,
+      "value": "\"screenView\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/DefaultAnalyticsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/DefaultAnalyticsRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 12,
+      "value": "\"userAction\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/DefaultAnalyticsRepository.swift",
       "kind": "StringLiteral",
       "offset": 1193,
       "length": 20,
       "value": "\"cars-sdk-analytics\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Analytics\/DefaultAnalyticsRepository.swift",
+      "kind": "Array",
+      "offset": 2681,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
       "value": "\"C0001\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 7,
       "value": "\"C0002\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 7,
       "value": "\"C0004\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
       "value": "\"C0001\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 7,
       "value": "\"C0002\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/CookieType.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 7,
       "value": "\"C0004\""
     },
     {
-      "filePath": "\/Users\/Shared\/Jenkins\/Home\/workspace\/CarsSDK-iOS-Release\/CarsSDK\/CarsSDK\/Flows\/Models\/InpathWebviewMessageHandler.swift",
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/DefaultNavigationPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 897,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/DefaultNavigationPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 988,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/DefaultNavigationPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1444,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/DefaultNavigationPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1822,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/DefaultNavigationPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1912,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/DefaultNavigationPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2112,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Models\/InpathWebviewMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 5,
+      "value": "\"sdk\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Models\/InpathWebviewMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Models\/InpathWebviewMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 9,
+      "value": "\"payload\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/Flows\/Models\/InpathWebviewMessageHandler.swift",
       "kind": "StringLiteral",
       "offset": 105,
       "length": 27,
       "value": "\"CarsSDK.InpathWebviewMessageHandler\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Types\/ConfigResponse.swift",
+      "kind": "Array",
+      "offset": 990,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Branding\/Typography.swift",
+      "kind": "FloatLiteral",
+      "offset": 628,
+      "length": 4,
+      "value": "17.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Branding\/Typography.swift",
+      "kind": "FloatLiteral",
+      "offset": 666,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/API\/Flow\/Flow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1951,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/Environment+AnalyticsFrequency.swift",
+      "kind": "FloatLiteral",
+      "offset": 262,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/CarsSDK\/CarsSDK\/URL\/Environment+AnalyticsFrequency.swift",
+      "kind": "FloatLiteral",
+      "offset": 302,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CarsSDK\/IntermediateBuildFilesPath\/CarsSDK.build\/Release-iphonesimulator\/CarsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 6,
+      "value": "\"back\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CarsSDK\/IntermediateBuildFilesPath\/CarsSDK.build\/Release-iphonesimulator\/CarsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 15,
+      "value": "\"error_network\""
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/NAbbHGJu\/0\/ios\/cars-sdk-ios-ci\/tbu\/mobile\/cars-sdk-ios\/build\/DerivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/CarsSDK\/IntermediateBuildFilesPath\/CarsSDK.build\/Release-iphonesimulator\/CarsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1010,
+      "length": 14,
+      "value": "\"error_server\""
     }
   ]
 }

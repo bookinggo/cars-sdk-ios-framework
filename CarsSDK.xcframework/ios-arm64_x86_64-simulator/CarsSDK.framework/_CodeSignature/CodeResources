@@ -6,59 +6,59 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Lm74uhdqNbOm70r1Ap1X8lCUa48=
+		3i3V18/vnVM57hsxnsBjlEKvfRI=
 		</data>
 		<key>ErrorView.nib</key>
 		<data>
-		iM5wFyi/B9heHTX5GR4T9xjvZOw=
+		AcPmo+HvzPWWEff/mWcErjx3oHM=
 		</data>
 		<key>Headers/CarsSDK-Swift.h</key>
 		<data>
-		Bbuw12xkELmvhuSuAyQqozgHCcQ=
+		owaux6KCrQuiLPQGDA0yX8xkstg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RhxcvjTAuMEgn8FhVPsX0E7d3/4=
+		RXn+i87obdZebCxBoIEl/cg+/P8=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		cR5QMoWk2ogkRnk81nfYqyWHs38=
+		8HrsOoKINn5Ws1eb4j+tYicqdD4=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EZDkm1ad4gfpSIYP7W5Exd71pKg=
+		iiV8SuLQSzcND0bM0dyNBut/+Rc=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ihupHGLH5jtutGyW2bBq08tSkAk=
+		oOJ9yomhEb95nFtteS4wSaLpD74=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EZDkm1ad4gfpSIYP7W5Exd71pKg=
+		iiV8SuLQSzcND0bM0dyNBut/+Rc=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		21wQoWooS66hsjBQ64QJ1HuPIjg=
+		9yX3QU3otX3hNnMEyaNUczS0pZk=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cR5QMoWk2ogkRnk81nfYqyWHs38=
+		8HrsOoKINn5Ws1eb4j+tYicqdD4=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qNlNlMSiqV6XdgEG/ro6vCWnzRU=
+		ibMag6SR2ikWeAbnQxt8Wc7nepU=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Wbdofk27ESNDPSFj4p+VltW7+Uo=
+		mKpOST4yh67Qzu4pFCfAmutsA6g=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qNlNlMSiqV6XdgEG/ro6vCWnzRU=
+		ibMag6SR2ikWeAbnQxt8Wc7nepU=
 		</data>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MkzfmLxOGnX2Eqk6gR2tzLxWajY=
+		OPqVLppyHlfJxk1hA9UvIqbHVTQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -152,91 +152,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ema2u0ZlVxFQtd+zri0TgPBWxsgaQrHqT9SypNuIJUo=
+			bZCpLVBVecO5F7gyB5y58cnUVWW5pNkOnmUc2wvQ8BQ=
 			</data>
 		</dict>
 		<key>ErrorView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0l7eZAiDjoauXavHu6MCz9l/oUCe8peKsPMOfltUbDM=
+			iQdXI2fs+0yr45nylrMZL4vWX6hedpDTzIDP5IRUmik=
 			</data>
 		</dict>
 		<key>Headers/CarsSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			syppRYUxfSSyvH6UsjGPdlqKAgntM0tqf7CUZpEXXGU=
+			MWUZQl799pmhpALWltl9Fkywobttm2pVYfLC9IyljD4=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgeVbv9bd8Ha7a1t1fodDvVxTvBCLtK2Yh/vsdZfwn4=
+			x1o9S8j4J2qqWkewGnwBYQYJeKDmFh09aAiCN70McbA=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+u/41f57gQu9fUEiYd3kCxLnfusmU27iMkvoOemmRY=
+			/Y28ikZwVQU1I0PWMl5gZTRs3B+Z3sAHjXcUQ6yxpSY=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aGYaYUsdUytF+zz6LcH2TBQh+O/6kwS1t+F93ctIr4g=
+			mav38QvrV5m9prrBO64bmUtOAMvXuXHBrbK4HmirX84=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+u/41f57gQu9fUEiYd3kCxLnfusmU27iMkvoOemmRY=
+			/Y28ikZwVQU1I0PWMl5gZTRs3B+Z3sAHjXcUQ6yxpSY=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a0zw6jEqUvB1pV2fDsVAGkhBw0IHetiKMARQjiHD7Ng=
+			tfiEb8LfMtM6yz/PsBpIsTRTBbTucNz9lJT4fXBs5gc=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VgeVbv9bd8Ha7a1t1fodDvVxTvBCLtK2Yh/vsdZfwn4=
+			x1o9S8j4J2qqWkewGnwBYQYJeKDmFh09aAiCN70McbA=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			omkKxBdhKu4/sP73Wqx6FU5TQgcPvPZXPVTViwh1HT0=
+			4s20olFnAs+Q2CV8d8CGI1GY9mtKXcZi99SQTCSTt+I=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Se1JVv6onqRRra+t5ngaVzpL8lFvmkGZkLjeMagmJw=
+			wF1hCIG3YfoBgjVxbtVlix+tkyiLiFQ++nYgfnv5ohk=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			omkKxBdhKu4/sP73Wqx6FU5TQgcPvPZXPVTViwh1HT0=
+			4s20olFnAs+Q2CV8d8CGI1GY9mtKXcZi99SQTCSTt+I=
 			</data>
 		</dict>
 		<key>Modules/CarsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t6iOWTZo+hUKVYfyxefJAiFIX6KlxPVhsD2Gl7kcvEs=
+			n+6zsBKEmykUgV+aKSI+G7+QCCJBxjyhKyRS046dbTM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
